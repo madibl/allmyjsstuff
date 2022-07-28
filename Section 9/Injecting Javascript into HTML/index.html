@@ -1,0 +1,23 @@
+<html>
+
+    <script>
+        window.onload = function (){ //runs when everything else is loaded
+        const tag = document.getElementById('tag1');
+        var time = 100;
+        const getTime = ()=> {
+            time = time -1;
+        
+        tag.innerHTML = "Ship leaves in " + time + " seconds."; //changes tag1 as defined in h1
+        }
+        setInterval(getTime, 1000);
+        
+        }
+    </script>
+    <body>
+        <div>
+            <h1 id="tag1">HELLO</h1>
+        </div>
+        
+    </body>
+
+</html>

@@ -1,0 +1,21 @@
+<script>
+    let favoriteFoods = ["Chicken", "Curry", "Kit-Kat", "Tacos", "Alfredo"]
+    //slicing: cuts out piece of array between two indexes and saves it to a new variable
+    //first argument is the starting index, second is the ending index
+    let sliced = favoriteFoods.slice(0,2);
+    console.log(sliced); //Notice that elements at end index is not included
+
+    //splice
+    //1st argument: starting index, 2nd argument: number of elements to remove AND/OR element to add
+    
+    console.log(favoriteFoods);
+    //say out goal is to remove alfredo and replace it
+    favoriteFoods.splice(4, 1, "Steak")
+    console.log(favoriteFoods);
+    //can also remove no elements, add more than one items, or just remove an item/items
+    favoriteFoods.splice(3, 0, "Salmon", "Fries");
+</script>
+<!-- 
+    array.splice - changes the array
+    array.slice - does not change the original array, but creates a new one
+-->

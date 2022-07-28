@@ -1,0 +1,2 @@
+# Fortune Teller Activity
+This program asks the user to pick a number between 0 and 10. Using this number, the code outputs a fortune. Numbers between 0 and 3 outputs a low fortune. Numbers between 4 and 7 outputs an average fortune. Numbers between 8 and 10 outputs a great fortune. Numbers outside of this fortune should not be read by the program.

@@ -1,0 +1,2 @@
+# Working with Basic Data Types Activity
+This code creates a short story using variables to represent certain elements of the story, such as a name or a "gift". These elements are then added into the strings that unfold this tale.

@@ -1,0 +1,2 @@
+# Creating Sentences Activity
+This code takes an established array, loops through each index of the array, and then takes that item from the array and adds it into an empty string to form a coherent sentence.
